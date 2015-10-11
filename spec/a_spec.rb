@@ -5,4 +5,7 @@ RSpec.describe 'abc' do
   it 'should be nok' do
     expect(0).to be 0
   end
+  it 'should be ok' do
+    expect(true).to be true
+  end
 end
